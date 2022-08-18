@@ -10,28 +10,43 @@
  width : 300px;
   display : block;  
   }
-.video-title {
-  font-size : 14px;
-  width : 280px;
-  }
-.video-preview {
+  .video-preview {
   width : 300px;
   display : inline-block;
   vertical-align: top;
   margin-right : 15px;
   }
+  
+  .channel-picture {
+    display : inline-block;
+    width : 50px;
+    vertical-align: top;     
+  }
+  .video-info {
+    display : inline-block;
+    width : 200px;    
+    /* vertical-align: top; */
+  }
+  .profile-picture {
+    width : 100%; 
+  }
+  .video-title {
+    margin-top : 0px;
+  }
   </style>
 </head>
 <body>    
   <input class="search-bar" type="text" placeholder="search">
+
   <div class="video-preview">
     <div>
-      <img   class="thumbnail-interview" src="thumbnails/thumbnail-1.webp">
-    </div>
+      <img class="thumbnail-interview" src="thumbnails/thumbnail-1.webp">
+    </div>    
     <div>
-      <img src="channel-pictures/channel-1.jpeg" >      
-    </div>  
-    <div>
+     <div class="channel-picture">
+      <img class="profile-picture" src="channel-pictures/channel-1.jpeg" > 
+     </div>      
+     <div class="video-info">
     <p class="video-title">
     Talking Tech and AI with Google CEO Sundai Pichai
     </p>
@@ -41,8 +56,9 @@
     <p class="video-stat">
     3.4M views &#183; 6 months ago
     </p>
-    </div>   
-   </div>
+    </div> 
+    </div>
+
    <div class="video-preview">
     <img   class="thumbnail-interview" src="thumbnails/thumbnail-2.webp">    
     <p class="video-title">
@@ -53,7 +69,6 @@
     </p>  
     <p class="video-stat">
       19M &#183; 4 years ago
-     </p>
-     </div> 
-
+     </p>    
+    </div>  
 </html>
