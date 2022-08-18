@@ -10,28 +10,45 @@
  width : 300px;
   display : block;  
   }
-.video-title {
-  font-size : 14px;
-  width : 280px;
-  }
-.video-preview {
+
+  .video-preview {
   width : 300px;
   display : inline-block;
   vertical-align: top;
-  margin-right : 15px;
+  margin-right : 15px;  
+  }
+  .channel-picture {
+    width : 50px;
+    display : inline-block; 
+    vertical-align: top; 
+      }
+  .video-info {
+    width : 200px;
+    display : inline-block;    
+  }
+  .profile-picture {
+    width : 40px;
+    border-radius: 50px;       
+  }
+  .video-title {
+    margin-top : 0px;
+  }
+  .thumbnail-row {
+    margin-bottom : 15px;
   }
   </style>
 </head>
 <body>    
   <input class="search-bar" type="text" placeholder="search">
   <div class="video-preview">
-    <div>
+    <div class="thumbnail-row">
       <img   class="thumbnail-interview" src="thumbnails/thumbnail-1.webp">
     </div>
     <div>
-      <img src="channel-pictures/channel-1.jpeg" >      
+    <div class="channel-picture">
+      <img class="profile-picture" src="channel-pictures/channel-1.jpeg" >      
     </div>  
-    <div>
+    <div class="video-info">
     <p class="video-title">
     Talking Tech and AI with Google CEO Sundai Pichai
     </p>
@@ -43,6 +60,8 @@
     </p>
     </div>   
    </div>
+   </div>
+
    <div class="video-preview">
     <img   class="thumbnail-interview" src="thumbnails/thumbnail-2.webp">    
     <p class="video-title">
