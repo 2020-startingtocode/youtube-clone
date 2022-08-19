@@ -1,8 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Youtube.com Clone</title>  
+  <title>Youtube.com Clone</title> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <style>  
+  p {
+    font-family : Roboto, Arial;
+    margin-top : 0px;
+    margin-bottom : 0px;
+    }
+  
   .search-bar {
     display : block;    
   }
@@ -22,7 +31,7 @@
     vertical-align: top; 
     }
   .video-info {
-    width : 200px;
+    width : 220px;
     display : inline-block;    
   }
   .profile-picture {
@@ -34,7 +43,19 @@
   }
   .video-title {
     margin-top : 0px;
+    font-weight : 500;
+    line-height : 20px; 
+    size : 14px;  
+    margin-bottom : 12px; 
   }
+  .video-author, .video-stat {
+    size : 12px;
+    color : #606060;
+  }
+  .video-author {
+    margin-bottom : 4px;
+  }
+
   </style>
 </head>
 <body>    
@@ -48,21 +69,28 @@
       <img class="profile-picture" src="channel-pictures/channel-1.jpeg" > 
      </div>      
      <div class="video-info">
-    <p class="video-title">
-    Talking Tech and AI with Google CEO Sundai Pichai
-    </p>
-    <p class="video-author">
-    Marques Brownlee
-    </p>
-    <p class="video-stat">
-    3.4M views &#183; 6 months ago
-    </p>
+      <p class="video-title">
+      Talking Tech and AI with Google CEO Sundai Pichai
+      </p>
+      <p class="video-author">
+      Marques Brownlee
+      </p>
+      <p class="video-stat">
+      3.4M views &#183; 6 months ago
+      </p>
     </div>   
    </div>
    </div>
    
    <div class="video-preview">
-    <img   class="thumbnail-interview" src="thumbnails/thumbnail-2.webp">    
+    <div class="thumbnail-row">
+    <img   class="thumbnail-interview" src="thumbnails/thumbnail-2.webp"> 
+    </div> 
+    <div>
+    <div class="channel-picture">
+      <img class="profile-picture" src="channel-pictures/channel-2.jpeg">
+    </div>
+    <div class="video-info">
     <p class="video-title">
       Try not to laugh challenge &#35; 9
     </p>  
@@ -71,6 +99,8 @@
     </p>  
     <p class="video-stat">
       19M &#183; 4 years ago
-     </p>    
-    </div>  
+     </p> 
+     </div>   
+    </div> 
+    </div> 
 </html>
