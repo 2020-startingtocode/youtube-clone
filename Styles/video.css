@@ -20,7 +20,9 @@
   }  
   .thumbnail-row {
     margin-bottom : 15px;
+    position: relative;
   }
+    
   .video-title {
     margin-top : 0px;
     margin-bottom : 12px; 
