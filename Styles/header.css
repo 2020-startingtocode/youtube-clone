@@ -11,8 +11,7 @@
  border-bottom-width: 1px;
  border-bottom-style: solid;
  border-bottom-color: rgb(236, 231, 231);
- z-index: 100;
- /* align-items: center; */
+ z-index: 100; 
 }
 
 .left-section {  
@@ -31,8 +30,7 @@
 }
 
 .middle-section {
-  display: flex;
-  /* flex-direction: row; */
+  display: flex;    
   margin-left: 70px;
   margin-right: 35px;
   max-width: 600px;  
@@ -68,29 +66,72 @@
   border-style: solid;
   border-color:  rgb(192, 192, 192);
   margin-left: -1px;
-  margin-right: 10px;
-  /* display: flex;  
-  align-items: center; */
+  margin-right: 10px;   
 }
 
-.search-icon {
-  height: 25px;
-  margin-top: 4px;
-}
+  .search-button:hover {
+    background-color: rgb(221, 221, 221);
+  }
 
-.voice-search-button {
-  height: 40px;
+  .search-button,
+  .voice-search-button,
+  .upload-icon-container,
+  .youtube-app-container,
+  .notification-container {
+    position: relative;  
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .search-button .tooltip,
+  .voice-search-button .tooltip,
+  .upload-icon-container .tooltip, 
+  .youtube-app-container .tooltip,
+  .notification-container .tooltip {
+    background-color: rgb(100, 98, 98);
+    color: white;
+    font-family: Roboto, Arial;
+    font-size: 12px;    
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 2px;
+    position: absolute;
+    bottom: -38px;
+    opacity: 0; 
+    transition: opacity 0.15s;
+    pointer-events: none; 
+    white-space: nowrap;   
+  }
+  
+  /* target tooltip only when hover search button */
+  .search-button:hover .tooltip,
+  .voice-search-button:hover .tooltip,
+  .upload-icon-container:hover .tooltip,
+  .youtube-app-container:hover .tooltip,
+  .notification-container:hover .tooltip
+  {
+    opacity: 1;
+  }
+
+ .search-icon {
+    height: 25px;   
+  }
+  
+.voice-search-button { 
+  height: 40px; 
   width: 40px; 
   border-radius: 20px;
   border: none;
-  background-color: rgb(240, 238, 238);
-  /* display: flex;
-  align-items: center; */
-}
+  background-color: rgb(240, 238, 238);  
+}  
 
 .voice-search-icon {
-  height: 25px;
-  margin-top: 4px;  
+  height: 25px;  
 }
  
 .right-section { 
