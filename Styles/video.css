@@ -1,7 +1,7 @@
  
   .video-grid {
     display : grid;
-    grid-template-columns : 1fr 1fr 1fr;
+    grid-template-columns : 1fr 1fr 1fr 1fr;
     /* margin-top : 20px; */
     column-gap : 15px;
     row-gap :30px;
@@ -22,7 +22,8 @@
     border-radius: 50px;        
   } 
 
-  .thumbnail-row {
+  .thumbnail-row,
+  .thumbnail-container {
     margin-bottom : 10px;
     position: relative;
   }
