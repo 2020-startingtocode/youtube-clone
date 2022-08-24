@@ -11,7 +11,8 @@
   <link rel="stylesheet" href="styles/sidebar.css">
 </head>
 <body> 
-  <div class="header">    
+  <header class="header">   
+    <!-- sematic elements -->
     <div class="left-section">
       <img class="hamburger-menu" src="icons/hamburger-menu.svg">
       <img class="youtube-logo" src="icons/youtube-logo.svg">
@@ -47,9 +48,9 @@
       </div>     
       <img class="user-picture" src="channel-pictures/my-channel.jpeg">
     </div>
-  </div>
+  </header>
 
-  <div class="sidebar">
+  <nav class="sidebar">
     <div class="sidebar-link">
       <img src="icons/home.svg">
       <div>Home</div>
@@ -74,28 +75,32 @@
       <img src="icons/library.svg">
       <div>Library</div>
     </div>
-  </div>
-  
-  <div class="video-grid">
+  </nav>
+
+  <main>  
+  <section class="video-grid">
     <div class="video-preview">
       <div class="thumbnail-container">
         <div class="video-time">
           14:20
         </div>        
-        <a   href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
-       <img  class="thumbnail-interview" src="thumbnails/thumbnail-1.webp">
-      </a>     
+        <a  href="">
+        <img  class="thumbnail-interview" src="thumbnails/thumbnail-1.webp">
+        </a>     
       </div>
       <div class="video-info-grid">
       <div class="channel-picture">
+        <a href="">
         <img class="profile-picture" src="channel-pictures/channel-1.jpeg" > 
+      </a>
       </div>      
       <div class="video-info">
         <p class="video-title">
-        Talking Tech and AI with Google CEO Sundai Pichai
-        </p>
-        <p class="video-author">
-        Marques Brownlee
+          <a href="">
+            Talking Tech and AI with Google CEO Sundai Pichai</a>
+        </p>           
+         <p class="video-author">
+         <a href="">Marques Brownlee</a>        
         </p>
         <p class="video-stat">
         3.4M views &#183; 6 months ago
@@ -105,22 +110,28 @@
     </div>
  
     <div class="video-preview">
-      <div class="thumbnail-row">
+      <div class="thumbnail-container">
         <div class="video-time">
           8:22
+       <a href="">
         </div>      
       <img   class="thumbnail-interview" src="thumbnails/thumbnail-2.webp"> 
+      </a>
       </div> 
       <div class="video-info-grid">
       <div class="channel-picture">
+        <a href="">
         <img class="profile-picture" src="channel-pictures/channel-2.jpeg">
+      </a> 
       </div>
       <div class="video-info">
       <p class="video-title">
+        <a href="">
         Try not to laugh challenge &#35; 9
+        </a>
       </p>  
       <p class="video-author">
-        Markiplier
+        <a href="">Markiplier</a>        
       </p>  
       <p class="video-stat">
         19M views &#183; 4 years ago
@@ -130,22 +141,28 @@
     </div> 
 
     <div class="video-preview">
-      <div class="thumbnail-row">
+      <div class="thumbnail-container">
         <div class="video-time">
           9:13
         </div>
+        <a href="">
         <img   class="thumbnail-interview" src="thumbnails/thumbnail-3.webp">
+      </a>
       </div>
       <div class="video-info-grid">
       <div class="channel-picture">
+        <a href="">
         <img class="profile-picture" src="channel-pictures/channel-3.jpeg" > 
+        </a>
       </div>      
       <div class="video-info">
         <p class="video-title">
-        Crazy Tik Toks Taken Moments Before DISASTER
+          <a href="">
+            Crazy Tik Toks Taken Moments Before DISASTER
+          </a>        
         </p>
         <p class="video-author">
-        SSSniperWolf
+          <a href="">SSSniperWolf </a>        
         </p>
         <p class="video-stat">
         12M views &#183; 1 year ago
@@ -155,22 +172,27 @@
     </div>
  
     <div class="video-preview">
-      <div class="thumbnail-row">
+      <div class="thumbnail-container">
         <div class="video-time">
           22:09
         </div>
-      <img   class="thumbnail-interview" src="thumbnails/thumbnail-4.webp"> 
+      <a href="">
+      <img  class="thumbnail-interview" src="thumbnails/thumbnail-4.webp">
+      </a>
       </div> 
       <div class="video-info-grid">
       <div class="channel-picture">
+      <a href="">
         <img class="profile-picture" src="channel-pictures/channel-4.jpeg">
+      </a>
       </div>
       <div class="video-info">
       <p class="video-title">
-        The Simple Math Problem No One Can Solve &#8722; Collatz Conjecture
+        <a href="">The Simple Math Problem No One Can Solve &#8722; Collatz Conjecture
+        </a>       
       </p>  
       <p class="video-author">
-        Veritasium
+        <a href=""> Veritasium</a>       
       </p>  
       <p class="video-stat">
         18M views &#183; 4 months ago
@@ -180,22 +202,26 @@
     </div> 
 
     <div class="video-preview">
-      <div class="thumbnail-row">
+      <div class="thumbnail-container">
         <div class="video-time">
           11:17
         </div>
+      <a href="">
         <img   class="thumbnail-interview" src="thumbnails/thumbnail-5.webp">
+      </a>
       </div>
       <div class="video-info-grid">
       <div class="channel-picture">
-        <img class="profile-picture" src="channel-pictures/channel-5.jpeg" > 
+        <a href="">
+        <img class="profile-picture" src="channel-pictures/channel-5.jpeg" >
+      </a> 
       </div>      
       <div class="video-info">
         <p class="video-title">
-        Kadene's Algorithm to Maximum Sum Subarray Problem
+        <a href="">Kadene's Algorithm to Maximum Sum Subarray Problem</a>        
         </p>
         <p class="video-author">
-        CS Dojo
+        <a href="">CS Dojo</a>        
         </p>
         <p class="video-stat">
         519K views &#183; 5 years ago
@@ -205,22 +231,26 @@
     </div>
  
     <div class="video-preview">
-      <div class="thumbnail-row">
+      <div class="thumbnail-container">
         <div class="video-time">
           19:59
         </div>
-      <img   class="thumbnail-interview" src="thumbnails/thumbnail-6.webp"> 
+      <a href="">
+      <img  class="thumbnail-interview" src="thumbnails/thumbnail-6.webp">
+     </a> 
       </div> 
       <div class="video-info-grid">
       <div class="channel-picture">
+        <a href="">
         <img class="profile-picture" src="channel-pictures/channel-6.jpeg">
+        </a>
       </div>
       <div class="video-info">
       <p class="video-title">
-        Anything You Can Fit In The Circle I'll Pay For
+        <a href="">Anything You Can Fit In The Circle I'll Pay For</a>        
       </p>  
       <p class="video-author">
-        MrBeast
+        <a href="">MrBeast</a>        
       </p>  
       <p class="video-stat">
         141M views &#183; 1 years ago
@@ -228,6 +258,187 @@
       </div>   
       </div> 
     </div> 
-  </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-container">
+        <div class="video-time">
+          10:13
+        </div>        
+        <a  href="">
+        <img class="thumbnail-interview" src="thumbnails/thumbnail-7.webp">
+        </a>     
+      </div>
+      <div class="video-info-grid">
+      <div class="channel-picture">
+        <a href="">
+        <img class="profile-picture" src="channel-pictures/channel-7.jpeg" > 
+      </a>
+      </div>      
+      <div class="video-info">
+        <p class="video-title">
+          <a href="">
+            Why Planes Don't Fly Over Tibet</a>
+        </p>           
+         <p class="video-author">
+         <a href="">RealLifeLore</a>        
+        </p>
+        <p class="video-stat">
+        6.6M views &#183; 1 year ago
+        </p>
+      </div>   
+      </div>
+    </div>
+ 
+    <div class="video-preview">
+      <div class="thumbnail-container">
+        <div class="video-time">
+          7:12
+       <a href="">
+        </div>      
+      <img class="thumbnail-interview" src="thumbnails/thumbnail-8.webp"> 
+      </a>
+      </div> 
+      <div class="video-info-grid">
+      <div class="channel-picture">
+        <a href="">
+        <img class="profile-picture" src="channel-pictures/channel-8.jpeg">
+      </a> 
+      </div>
+      <div class="video-info">
+      <p class="video-title">
+        <a href="">
+        Inside The World's Biggest Passenger Plane
+        </a>
+      </p>  
+      <p class="video-author">
+        <a href="">Tech Vision</a>        
+      </p>  
+      <p class="video-stat">
+       3.7M views &#183; 10 months ago
+      </p> 
+      </div>   
+      </div> 
+    </div> 
+
+    <div class="video-preview">
+      <div class="thumbnail-container">
+        <div class="video-time">
+          13:17
+        </div>
+        <a href="">
+        <img   class="thumbnail-interview" src="thumbnails/thumbnail-9.webp">
+      </a>
+      </div>
+      <div class="video-info-grid">
+      <div class="channel-picture">
+        <a href="">
+        <img class="profile-picture" src="channel-pictures/channel-9.jpeg" > 
+        </a>
+      </div>      
+      <div class="video-info">
+        <p class="video-title">
+          <a href="">
+            The SECRET to Super Human STRENGTH
+          </a>        
+        </p>
+        <p class="video-author">
+          <a href="">ThenX </a>        
+        </p>
+        <p class="video-stat">
+        20M views &#183; 3 year ago
+        </p>
+      </div>   
+      </div>
+    </div>
+ 
+    <div class="video-preview">
+      <div class="thumbnail-container">
+        <div class="video-time">
+          7:53
+        </div>
+      <a href="">
+      <img  class="thumbnail-interview" src="thumbnails/thumbnail-10.webp">
+      </a>
+      </div> 
+      <div class="video-info-grid">
+      <div class="channel-picture">
+      <a href="">
+        <img class="profile-picture" src="channel-pictures/channel-10.jpeg">
+      </a>
+      </div>
+      <div class="video-info">
+      <p class="video-title">
+        <a href="">How The World's Largest Cruise Ship Makes 30,000 Meals Every Day
+        </a>       
+      </p>  
+      <p class="video-author">
+        <a href=""> Bussiness Insider</a>       
+      </p>  
+      <p class="video-stat">
+        14M views &#183; 1 year ago
+      </p> 
+      </div>   
+      </div> 
+    </div> 
+
+    <div class="video-preview">
+      <div class="thumbnail-container">
+        <div class="video-time">
+          4:10
+        </div>
+      <a href="">
+        <img   class="thumbnail-interview" src="thumbnails/thumbnail-11.webp">
+      </a>
+      </div>
+      <div class="video-info-grid">
+      <div class="channel-picture">
+        <a href="">
+        <img class="profile-picture" src="channel-pictures/channel-11.jpeg" >
+      </a> 
+      </div>      
+      <div class="video-info">
+        <p class="video-title">
+        <a href="">Dubai's Crazy Underwater Train and Other Things #Only in Dubai</a>        
+        </p>
+        <p class="video-author">
+        <a href="">Destination Tips</a>        
+        </p>
+        <p class="video-stat">
+        3M views &#183; 1 year ago
+        </p>
+      </div>   
+      </div>
+    </div>
+ 
+    <div class="video-preview">
+      <div class="thumbnail-container">
+        <div class="video-time">
+          4:51
+        </div>
+      <a href="">
+      <img  class="thumbnail-interview" src="thumbnails/thumbnail-12.webp">
+     </a> 
+      </div> 
+      <div class="video-info-grid">
+      <div class="channel-picture">
+        <a href="">
+        <img class="profile-picture" src="channel-pictures/channel-12.jpeg">
+        </a>
+      </div>
+      <div class="video-info">
+      <p class="video-title">
+        <a href="">What would happen if you didn't drink water? Mia Nacamuli</a>        
+      </p>  
+      <p class="video-author">
+        <a href="">TED-Ed</a>        
+      </p>  
+      <p class="video-stat">
+        12M views &#183; 5 years ago
+      </p> 
+      </div>   
+      </div> 
+    </div>
+  </section>
+  </main>
   </body>      
 </html>

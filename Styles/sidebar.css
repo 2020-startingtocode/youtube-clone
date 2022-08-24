@@ -19,12 +19,10 @@
 }
 
 .sidebar-link:hover {
-  background-color: rgb(231, 231, 231);
-  /* cursor: pointer; */
+  background-color: rgb(231, 231, 231);  
 }
 
-.sidebar-link div {
-  font-family: Roboto, Arial;
+.sidebar-link div {  
   font-size: 10px;
  }
 

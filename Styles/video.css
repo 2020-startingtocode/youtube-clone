@@ -8,6 +8,25 @@
     max-width: 100%;
   }
 
+  /* media querry : the CSS style omly active when the screen 600px or less. */
+  @media (max-width: 750px) {
+    .video-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media (min-width: 751px) and (max-width:999px) {
+    .video-grid {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+  
+  @media (min-width: 1000px) {
+    .video-grid {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+
    .thumbnail-interview {   
       width : 100%;  
   }
@@ -21,8 +40,7 @@
     width : 35px;
     border-radius: 50px;        
   } 
-
-  .thumbnail-row,
+  
   .thumbnail-container {
     margin-bottom : 10px;
     position: relative;
@@ -44,3 +62,12 @@
   .video-author {
     margin-bottom : 4px;
   }  
+
+  .video-author a,
+  .video-title a
+  {
+    text-decoration: none;
+    color: inherit;
+  }
+    
+  
